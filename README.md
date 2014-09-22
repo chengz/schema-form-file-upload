@@ -1,4 +1,4 @@
-schema-form-datetimepicker
-==========================
+schema-form-asset-upload
+========================
 
-AngularStrap Date and Time Picker implementation for Schema Form
+ngflow and ng-strap modal
