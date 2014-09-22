@@ -1,4 +1,4 @@
-schema-form-asset-upload
+schema-form-file-upload
 ========================
 
 ngflow and ng-strap modal
@@ -12,11 +12,11 @@ This add-on takes an options object via `uploadOptions` in the form. More info b
 Installation
 ------------
 The editor is an add-on to the Bootstrap decorator. To use it, just include
-`schema-form-asset-upload.min.js`.
+`schema-form-file-upload.min.js`.
 
 Easiest way is to install is with bower, this will also include dependencies:
 ```bash
-$ bower install chengz/schema-form-asset-upload
+$ bower install chengz/schema-form-file-upload
 ```
 
 You'll need to load a few additional files to use the editor:
@@ -35,13 +35,13 @@ Example
 <script src="bower_components/objectpath/lib/ObjectPath.js"></script>
 <script src="bower_components/angular-schema-form/dist/schema-form.min.js"></script>
 <script src="bower_components/angular-schema-form/dist/bootstrap-decorator.min.js"></script>
-<script src="schema-form-asset-upload.js"></script>
+<script src="schema-form-file-upload.js"></script>
 ```
 
 When you create your module, be sure to depend on this project's module as well.
 
 ```javascript
-angular.module('yourModule', ['schemaForm', 'schemaForm-asset-upload']);
+angular.module('yourModule', ['schemaForm', 'schemaForm-file-upload']);
 ```
 
 Usage
